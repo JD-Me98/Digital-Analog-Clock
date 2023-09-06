@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    font-family: sans-serif;
+    background: url("https://images.unsplash.com/photo-1475656106224-d72c2ab53e8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+}
+h2{
+    color:white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.analog-clock{
+    background-color: #3838;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    position:relative;
+    opacity:.8;
+    border:3px solid white;
+}
+.twelve{
+    color:white;
+    position:absolute;
+    top:10px;
+    left:50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);
+}
+.three{
+    color:white;
+    position:absolute;
+    top:50%;
+    right:10px;
+    transform: translatey(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);
+}
+.nine{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:10px;
+    transform: translatey(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);
+}
+.six{
+    color:white;
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);
+}
+#min{
+    width:100px; 
+    height:2px;
+    background: rgb(98,190,98);
+    background: linear-gradient(90deg, rgba(98,190,98,1) 0%, rgba(98,190,98,1) 50%, rgba(0,0,0,0.8748541652989321) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    left:25%;
+    transform:translateX(-50%);
+}
+#Hours{
+    width:60px; 
+    height:3px;
+    background: rgb(0,44,255);
+    background: linear-gradient(90deg, rgba(0,44,255,1) 0%, rgba(0,44,255,1) 50%, rgba(0,0,0,0.8748541652989321) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);    
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    right:35%;
+    transform:translateX(-50%);
+    transform: rotate(90deg);
+}
+#secs{
+    opacity: .5;
+    width:120px; 
+    height:1.5px;
+    background: rgb(255,106,0);
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(255,106,0,1) 50%, rgba(0,0,0,0.8748541652989321) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    right:20%;
+    transform:translateX(-50%);
+    transform: rotate(90deg);
+}
+.test {
+    width:130px;
+    height:130px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8048261540944502) 0%, rgba(75,133,73,0.7516048655790442) 100%);
+    position:absolute;
+    border-radius: 50%;
+    top:35px;
+    left:35px;
+    transform: translate(-50%);
+    transform: rotate(0deg);
+}
+.one{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    top:20px;
+    right:25%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);
+}
+.two{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    top:25%;
+    right:20px;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.four{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    bottom:25%;
+    right:20px;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.five{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    bottom:20px;
+    right:25%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.seven{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    bottom:20px;
+    left:30%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.eight{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    bottom:25%;
+    left:25px;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.ten{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    top:25%;
+    left:25px;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.eleven{
+    color:white;
+    position:absolute;
+    font-size: 14px;
+    top:20px;
+    left:30%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.8);  
+}
+.test2{
+    width:200px;
+    height:2px;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    transform: rotate(120deg);
+}
+.test3{
+    width:200px;
+    height:2px;
+    background-color: black;
+    position: absolute;
+    right:25%;
+    top:100px;
+    transform: rotate(90deg);
+}
+.test4{
+    width:200px;
+    height:2px;
+    background-color: black;
+    position: absolute;
+    bottom:85%;
+    transform: translateY(-50%);
+    transform: rotate(0deg);
+}
